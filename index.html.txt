@@ -1,0 +1,172 @@
+<DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consulting Formation - Formations & Conseils</title>
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+      font-family: "Poppins", Arial, sans-serif;
+    }
+    body {
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #0056b3;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.1em;
+    }
+    nav {
+      background-color: #004999;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 15px 20px;
+      display: block;
+      transition: background 0.3s;
+    }
+    nav a:hover {
+      background-color: #003d80;
+    }
+    section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section h2 {
+      color: #0056b3;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    section p {
+      text-align: center;
+      max-width: 800px;
+      margin: 0 auto 20px auto;
+      font-size: 1.05em;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card h3 {
+      color: #004999;
+      margin-bottom: 10px;
+    }
+    .contact {
+      text-align: center;
+    }
+    .btn {
+      display: inline-block;
+      background-color: #0056b3;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 10px;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background-color: #003d80;
+    }
+    footer {
+      background-color: #004999;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Consulting Formation</h1>
+    <p>Entreprise spécialisée dans la formation et le conseil agréée CPF de France</p>
+  </header>
+
+  <nav>
+    <a href="#formations">Formations</a>
+    <a href="#qualification">Qualification</a>
+    <a href="#conseil">Conseil</a>
+    <a href="#infrastructure">Nos Ressources</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="formations">
+    <h2>Nos Formations</h2>
+    <p>Nous proposons un large choix de formations professionnelles certifiées, adaptées aux besoins du marché et aux exigences des entreprises modernes.</p>
+    <div class="services">
+      <div class="card">
+        <h3>Management & Leadership</h3>
+        <p>Développez vos compétences en gestion, leadership et communication efficace.</p>
+      </div>
+      <div class="card">
+        <h3>Compétences Techniques</h3>
+        <p>Formations pratiques sur les technologies actuelles et les outils numériques.</p>
+      </div>
+      <div class="card">
+        <h3>Développement Personnel</h3>
+        <p>Programmes pour renforcer la motivation, la confiance et la performance individuelle.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="qualification">
+    <h2>Qualification et Développement du Personnel</h2>
+    <p>Nous accompagnons les entreprises dans la mise à niveau et la qualification de leurs collaborateurs, avec des programmes sur mesure orientés résultats.</p>
+  </section>
+
+  <section id="conseil">
+    <h2>Nos Services de Conseil</h2>
+    <p>Notre équipe d’experts accompagne les organisations dans la conception et l’optimisation de leurs stratégies de formation et de gestion des compétences.</p>
+  </section>
+
+  <section id="infrastructure">
+    <h2>Nos Ressources et Infrastructures</h2>
+    <p>Nous disposons de salles de formation modernes, d’équipements adaptés et d’une équipe de formateurs qualifiés avec une expérience approfondie dans le domaine de la formation professionnelle.</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contactez-nous</h2>
+    <p>Pour plus d’informations sur nos formations et services, contactez-nous via :</p>
+    <p>📞 <strong>WhatsApp:</strong> +33 6 12 34 56 78</p>
+    <p>🌐 <strong>Site Web:</strong> www.consultingformation.fr</p>
+    <p>✉️ <strong>Email:</strong> contact@consultingformation.fr</p>
+    <a href="#" class="btn">Nous écrire sur WhatsApp</a>
+  </section>
+
+  <footer>
+    © 2025 Consulting Formation – Tous droits réservés
+  </footer>
+
+</body>
+</html>
